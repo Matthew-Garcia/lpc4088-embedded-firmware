@@ -1,0 +1,18 @@
+# Keil / uVision user-specific files
+*.uvguix.*
+*.uvopt*
+*.uvoptx
+*.uvopt_saved_*
+
+# Build outputs
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.axf
+
+# IDE / tool metadata
+.hg/
+.vscode/
