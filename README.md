@@ -25,6 +25,20 @@ temperature monitoring, keypad input, and calculator operation.
 - Input validation and mode switching
 - Debugging communication and timing issues on real hardware
 
+## Features
+- Real-time clock display (DS1337) with user-configurable time/date (12h -> 24h conversion)
+- Alarm1 set + expiry handling with LED blink + user acknowledge
+- Temperature readout (DS1631) in C/F
+- 4x20 LCD via PCF8574T I2C expander (4-bit mode)
+- 4x4 keypad UI + calculator mode (press F to toggle)
+
+## Pin Map (LPC4088)
+- I2C: p9 (SDA), p10 (SCL)
+- Keypad rows: p17, p18, p19, p20
+- Keypad cols: p13, p14, p15, p16 (PullUp)
+- Alarm LED: p25
+
+
 ## Disclaimer
 This project was originally developed as part of a university microprocessor
 interfacing course. The implementation, refactoring, and documentation
