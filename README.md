@@ -43,3 +43,5 @@ temperature monitoring, keypad input, and calculator operation.
 This project was originally developed as part of a university microprocessor
 interfacing course. The implementation, refactoring, and documentation
 presented here are my own work.
+
+[← Back to Portfolio](https://matthew-garcia-portfolio.vercel.app)
